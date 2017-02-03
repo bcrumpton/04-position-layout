@@ -9,8 +9,36 @@ body {
 }
 
 ul {
+  display: inline-block;
   padding-left: 0;
   list-style: none;
 }
 
-img {}
+.section {
+  padding: 0.5rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #3c3c3c;
+  padding: 1rem;
+}
+
+.bg-img {
+  min-height: 100vh;
+  background: url("../images/overwatch_no_hud.png");
+  background-size: cover;
+}
+
+.big-text {
+  color: #fff;
+}
+
+.hud {
+  overflow: auto;
+}
+
+.character-stats__avatar {
+  height: 5rem;
+}
